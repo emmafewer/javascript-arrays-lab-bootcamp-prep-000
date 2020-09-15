@@ -4,10 +4,10 @@ function destructivelyAppendKitten(name) {
  return kittens.push("Ralph")
 }
 
-function destructivelyAppendKitten(name) {
+function destructivelyPrependKitten(name) {
  return kittens.unshift("Bob")
 }
 
-function destructivelyAppendKitten(name) {
+function destructivelyRemoveKitten(name) {
  return kittens.pop("Garfield")
 }
